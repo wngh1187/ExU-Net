@@ -121,6 +121,7 @@ class ModelTrainer:
 
 	def test(self, epoch):
 		# clean test data
+		self.enrollment_set.Key = 'clean'
 		self.embeddings = self._enrollment()
 		if self.args['flag_parent']:
 			self.cur_eer, min_dcf = self._calculate_eer()
