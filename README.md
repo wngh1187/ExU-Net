@@ -35,16 +35,9 @@ For noise synthesis, we used the MUSAN corpus.
 
 ```
 Go into run directory
-Activate the code you want in train.sh
 ./train.sh
 ```
 
-# Test
-
-```
-Go into run directory
-Activate the code you want in test.sh
-./test.sh
 ```
 
 # Citation
