@@ -5,17 +5,13 @@ import torch
 def get_args():
     system_args = {
         # expeirment info
-        'project'       : 'SV_UNC_jhjw',
-        'name'          : 'ResZNet_009',
-        'tags'          : ['Proposed'],
-        'description'   : 'ResZnet_with_skippath',
+        'project'       : 'ExU-Net',
+        'name'          : 'ExU-Net',
+        'tags'          : ['ExU-Net'],
+        'description'   : 'ExU-Net',
 
         # local
         'path_logging'  : '/results',
-
-        # wandb
-        'wandb_group'         : 'Juho', 
-        'wandb_entity'        : 'ir-lab', 
 
         # VoxCeleb1 DB
         'path_vox1_train'   : '/datas/VoxCeleb1/train',
