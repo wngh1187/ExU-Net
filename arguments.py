@@ -6,7 +6,7 @@ def get_args():
     system_args = {
         # expeirment info
         'project'       : 'SV_UNC_jhjw',
-        'name'          : 'ResZNet_008',
+        'name'          : 'ResZNet_009',
         'tags'          : ['Proposed'],
         'description'   : 'ResZnet_with_skippath',
 
