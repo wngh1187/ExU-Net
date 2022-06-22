@@ -51,7 +51,6 @@ def run(process_id, args, experiemt_args):
 		).description(args['description']
 		).save_source_files(args['path_scripts']
 		).use_local(args['path_logging']
-		).use_wandb(args['wandb_group'], args['wandb_entity']
 		).build()
 		trainer.logger = logger
 	
