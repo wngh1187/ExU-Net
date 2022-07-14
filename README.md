@@ -38,10 +38,7 @@ Go into run directory
 ./train.sh
 ```
 
-```
-
 # Citation
-Please cite this paper if you make use of the code. 
 ```
 @article{kim2022extended,
   title={Extended U-Net for Speaker Verification in Noisy Environments},
