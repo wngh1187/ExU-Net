@@ -41,5 +41,12 @@ Go into run directory
 ```
 
 # Citation
-TBA
-
+Please cite this paper if you make use of the code. 
+```
+@article{kim2022extended,
+  title={Extended U-Net for Speaker Verification in Noisy Environments},
+  author={Kim, Ju-ho and Heo, Jungwoo and Shim, Hye-jin and Yu, Ha-Jin},
+  journal={arXiv preprint arXiv:2206.13044},
+  year={2022}
+}
+```
