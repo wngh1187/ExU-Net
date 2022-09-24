@@ -122,7 +122,7 @@ class VoxCeleb1:
 	def _parse_enrollment(self, path, key):	
 		for root, _, files in os.walk(path):
 			for file in files:
-				if '.wav' in file:
+				if '.wav' in file:					
 					temp = os.path.join(root, file)
 					self.__enrollment_set[key].append(
 						EnrollmentItem(

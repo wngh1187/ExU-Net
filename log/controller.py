@@ -1,7 +1,6 @@
 import os
 from .interface import ExperimentLogger
 from .local import LocalLogger
-from .wandb import WandbLogger
 
 class LogModuleController(ExperimentLogger):
     def __init__(self, modules):

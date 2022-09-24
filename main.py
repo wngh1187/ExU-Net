@@ -34,7 +34,7 @@ def set_experiment_environment(args):
 	torch.distributed.init_process_group(
 			backend='nccl', world_size=args['world_size'], rank=args['rank'])
 
-def run(process_id, args, experiemt_args):
+def run(process_id, args):
 	# check parent process
 	args['process_id'] = process_id
 	args['flag_parent'] = process_id == 0
@@ -144,7 +144,7 @@ def run(process_id, args, experiemt_args):
 
 if __name__ == '__main__':
 	# get arguments
-	args, system_args, experiment_args = arguments.get_args()
+	args = arguments.get_args()
 	
 	# set reproducible
 	random.seed(args['rand_seed'])
@@ -174,5 +174,5 @@ if __name__ == '__main__':
 	torch.multiprocessing.spawn(
 		run, 
 		nprocs=args['world_size'], 
-		args=(args, experiment_args,)
+		args=(args,)
 	)

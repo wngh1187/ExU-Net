@@ -85,4 +85,4 @@ def get_args():
     for k, v in chain(system_args.items(), experiment_args.items()):
         args[k] = v
 
-    return args, system_args, experiment_args
+    return args
