@@ -2,7 +2,7 @@
 
 Pytorch code for following paper:
 
-* **Title** : Extended U-Net for Speaker Verification in Noisy Environments (To be announced at Interspeech2022) 
+* **Title** : Extended U-Net for Speaker Verification in Noisy Environments (Announced at Interspeech2022) 
 * **Autor** : Ju-ho Kim, Jungwoo Heo, Hye-jin Shim, and Ha-Jin Yu
 
 # Abstract
