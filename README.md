@@ -6,7 +6,7 @@ Pytorch code for following paper:
 * **Autor** : Ju-ho Kim, Jungwoo Heo, Hye-jin Shim, and Ha-Jin Yu
 
 # Abstract
-
+<img align="middle" width="2000" src="https://github.com/wngh1187/ExU-Net/blob/main/overall.png">
 Background noise is a well-known factor that deteriorates the accuracy and reliability of speaker verification (SV) systems by blurring speech intelligibility. 
 Various studies have used separate pretrained enhancement models as the front-end module of the SV system in noisy environments, and these methods effectively remove noises. 
 However, the denoising process of independent enhancement models not tailored to the SV task can also distort the speaker information included in utterances. 
